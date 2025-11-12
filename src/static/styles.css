@@ -115,6 +115,33 @@ section h3 {
   margin: 0;
 }
 
+/* Participant remove button */
+.participant-email {
+  display: inline-block;
+  max-width: calc(100% - 40px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.participant-remove {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-size: 14px;
+  margin-left: 8px;
+  cursor: pointer;
+  padding: 4px 6px;
+  border-radius: 4px;
+  transition: background-color 0.15s ease;
+  vertical-align: middle;
+}
+
+.participant-remove:hover {
+  background-color: rgba(198,40,40,0.08);
+}
+
 .form-group {
   margin-bottom: 15px;
 }
