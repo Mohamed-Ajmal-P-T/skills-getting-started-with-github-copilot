@@ -1,2 +1,9 @@
-fastapi
-uvicorn
+fastapi>=0.95.0
+uvicorn[standard]>=0.20.0
+
+pytest>=7.0
+requests>=2.28
+httpx>=0.24
+
+# Test client for FastAPI (optional - TestClient comes from starlette/fastapi)
+starlette>=0.28
